@@ -1,0 +1,77 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/luke/Documents/GitHub/Bulldog Run
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57020
+Successfully changed project path to: /Users/luke/Documents/GitHub/Bulldog Run
+/Users/luke/Documents/GitHub/Bulldog Run
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/luke/Documents/GitHub/Bulldog Run/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-12 14:38:23.669 Unity[48423:21665654] Color LCD preferred device: AMD Radeon Pro 555X (high power)
+2021-05-12 14:38:23.669 Unity[48423:21665654] Metal devices available: 2
+2021-05-12 14:38:23.669 Unity[48423:21665654] 0: AMD Radeon Pro 555X (high power)
+2021-05-12 14:38:23.669 Unity[48423:21665654] 1: Intel(R) UHD Graphics 630 (low power)
+2021-05-12 14:38:23.671 Unity[48423:21665654] Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56423
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.4f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000642 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 36.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.636 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000995 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 39.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.293 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1830 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.8 MB.
+System memory in use after: 144.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2275.
+Total: 3.099688 ms (FindLiveObjects: 0.256235 ms CreateObjectMapping: 0.106447 ms MarkObjects: 2.547689 ms  DeleteObjects: 0.187956 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Bulldog white.prefab
+  artifactKey: Guid(4a1289fb5fd104d3489262a6f24f282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bulldog white.prefab using Guid(4a1289fb5fd104d3489262a6f24f282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c312d811958f64f20320883d88540b97') in 1.455772 seconds
+  Import took 1.460514 seconds .
+
