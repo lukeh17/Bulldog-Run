@@ -8,70 +8,172 @@ Using pre-set license
 -name
 AssetImportWorker0
 -projectPath
-/Users/luke/Documents/GitHub/Bulldog Run
+/Users/luke/Documents/GitHub/Bulldog-Run/Bulldog Run
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57020
-Successfully changed project path to: /Users/luke/Documents/GitHub/Bulldog Run
-/Users/luke/Documents/GitHub/Bulldog Run
+57886
+Successfully changed project path to: /Users/luke/Documents/GitHub/Bulldog-Run/Bulldog Run
+/Users/luke/Documents/GitHub/Bulldog-Run/Bulldog Run
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 32.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/luke/Documents/GitHub/Bulldog Run/Assets
+[Subsystems] Discovering subsystems at path /Users/luke/Documents/GitHub/Bulldog-Run/Bulldog Run/Assets
 GfxDevice: creating device client; threaded=0
-2021-05-12 14:38:23.669 Unity[48423:21665654] Color LCD preferred device: AMD Radeon Pro 555X (high power)
-2021-05-12 14:38:23.669 Unity[48423:21665654] Metal devices available: 2
-2021-05-12 14:38:23.669 Unity[48423:21665654] 0: AMD Radeon Pro 555X (high power)
-2021-05-12 14:38:23.669 Unity[48423:21665654] 1: Intel(R) UHD Graphics 630 (low power)
-2021-05-12 14:38:23.671 Unity[48423:21665654] Using device AMD Radeon Pro 555X (high power)
+2021-05-12 22:11:44.821 Unity[50449:21792145] Color LCD preferred device: AMD Radeon Pro 555X (high power)
+2021-05-12 22:11:44.821 Unity[50449:21792145] Metal devices available: 2
+2021-05-12 22:11:44.821 Unity[50449:21792145] 0: AMD Radeon Pro 555X (high power)
+2021-05-12 22:11:44.821 Unity[50449:21792145] 1: Intel(R) UHD Graphics 630 (low power)
+2021-05-12 22:11:44.821 Unity[50449:21792145] Using device AMD Radeon Pro 555X (high power)
 Initializing Metal device caps: AMD Radeon Pro 555X
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56423
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56449
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.4f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000642 seconds.
+Registered in 0.000641 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 36.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.636 seconds
+- Completed reload, in  1.410 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000995 seconds.
+Registered in 0.000480 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 39.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.293 seconds
+- Completed reload, in  1.016 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1830 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.8 MB.
-System memory in use after: 144.8 MB.
+System memory in use before: 144.4 MB.
+System memory in use after: 144.3 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2275.
-Total: 3.099688 ms (FindLiveObjects: 0.256235 ms CreateObjectMapping: 0.106447 ms MarkObjects: 2.547689 ms  DeleteObjects: 0.187956 ms)
+Total: 2.891340 ms (FindLiveObjects: 0.229069 ms CreateObjectMapping: 0.081905 ms MarkObjects: 2.429832 ms  DeleteObjects: 0.149527 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Animation/Run.anim
+  artifactKey: Guid(05aa99ad8946e4f08baf364b5b721e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Run.anim using Guid(05aa99ad8946e4f08baf364b5b721e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7845226db94d87a689b8a9dd65521965') in 1.214284 seconds
+  Import took 1.217925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.000359 seconds.
   path: Assets/Prefabs/Bulldog white.prefab
   artifactKey: Guid(4a1289fb5fd104d3489262a6f24f282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bulldog white.prefab using Guid(4a1289fb5fd104d3489262a6f24f282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c312d811958f64f20320883d88540b97') in 1.455772 seconds
-  Import took 1.460514 seconds .
+Start importing Assets/Prefabs/Bulldog white.prefab using Guid(4a1289fb5fd104d3489262a6f24f282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460e060c3e22ac91da254de8c35cce09') in 0.424002 seconds
+  Import took 0.428058 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.2 MB.
+System memory in use after: 121.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2282.
+Total: 2.269767 ms (FindLiveObjects: 0.203767 ms CreateObjectMapping: 0.057135 ms MarkObjects: 1.921482 ms  DeleteObjects: 0.086714 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.458848 seconds.
+  path: Assets/Prefabs/Bulldog.prefab
+  artifactKey: Guid(53af44ceb888048328704cbba1ee9168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bulldog.prefab using Guid(53af44ceb888048328704cbba1ee9168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a1e34d74788a22a3380a7e0166e484') in 0.034031 seconds
+  Import took 0.037531 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000558 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.5 MB.
+System memory in use after: 156.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 2.029999 ms (FindLiveObjects: 0.186257 ms CreateObjectMapping: 0.079279 ms MarkObjects: 1.664360 ms  DeleteObjects: 0.098777 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 120.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 2.782039 ms (FindLiveObjects: 0.278581 ms CreateObjectMapping: 0.106337 ms MarkObjects: 2.266579 ms  DeleteObjects: 0.128596 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.9 MB.
+System memory in use after: 120.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 1.745786 ms (FindLiveObjects: 0.185778 ms CreateObjectMapping: 0.051225 ms MarkObjects: 1.415954 ms  DeleteObjects: 0.091866 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000798 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1860 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.4 MB.
+System memory in use after: 158.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2324.
+Total: 2.377425 ms (FindLiveObjects: 0.236285 ms CreateObjectMapping: 0.082742 ms MarkObjects: 1.956452 ms  DeleteObjects: 0.100544 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.9 MB.
+System memory in use after: 121.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2324.
+Total: 2.996946 ms (FindLiveObjects: 0.294970 ms CreateObjectMapping: 0.106386 ms MarkObjects: 2.464029 ms  DeleteObjects: 0.129988 ms)
 
